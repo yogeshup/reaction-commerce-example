@@ -1,0 +1,26 @@
+.scroll-container .swiper-wrapper {
+  margin-bottom: 70px; }
+.scroll-container .swiper-container {
+  width: 100%;
+  height: 100%; }
+.scroll-container .swiper-slide {
+  position: relative;
+  font-size: 0; }
+  .scroll-container .swiper-slide .slide-text {
+    position: absolute;
+    bottom: 9vw;
+    font-weight: bold;
+    color: white; }
+.scroll-container .swiper-scrollbar-drag {
+  height: 9px;
+  position: absolute;
+  background: #03DADD;
+  border-radius: 50px;
+  left: 0;
+  z-index: 9999;
+  top: -2px; }
+.scroll-container .swiper-container-horizontal > .swiper-scrollbar {
+  width: 85%;
+  margin: 0 5%; }
+
+/*# sourceMappingURL=scroller.css.map */

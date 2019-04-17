@@ -1,0 +1,20 @@
+query featuredQuery($shopId: ID!) {
+  featuredProductsByShop(shopId: $shopId) {
+    nodes {
+      _id
+      ...on CatalogItemProduct {
+        product {
+          title,
+          description,
+          slug
+          media {
+            URLs {
+              thumbnail
+              small
+            }
+          }
+        }
+      }
+    }
+  }
+}
